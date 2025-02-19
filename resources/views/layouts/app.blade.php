@@ -10,8 +10,8 @@
 
 <nav class="w-screen p-2 border-b-4 border-red-300 rounded-sm shadow-sm h-22 bg-cyan-600">
     <div class="flex flex-row items-center justify-between">
-        <a
-            href="{{ route('home') }}"class="flex-row pl-3 mb-1 font-sans text-2xl font-black text-red-400 hover:text-red-300 active:text-red-200">Courses
+        <a href="{{ route('home') }}"
+            class="flex-row pl-3 mb-1 font-sans text-2xl font-black text-red-400 hover:text-red-300 active:text-red-200">Courses
             App</a>
         <input class="flex items-center px-2 text-gray-500 border-2 border-gray-200 rounded-lg h-2/3"
             placeholder="Search">
